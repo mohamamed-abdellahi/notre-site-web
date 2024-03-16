@@ -1,0 +1,546 @@
+/* Le style de la page d'acceuil */
+#body1{
+    background-image: url(index.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-size: cover;
+}
+#entete{
+    background-color: lightslategray;
+    background-repeat: no-repeat;
+    margin: auto;
+    border-radius: 20px;
+    opacity: 0.8;
+}
+#navbar{
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+}
+nav li {  
+    display: inline;  
+}
+.element ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+.element ul li a{
+    color: #f1f1f1;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+.titre1{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    text-align: center;
+    opacity: 0.8;
+    width: max-content;
+    margin: auto;
+    border-radius: 15px;
+}
+.paragraphe1{
+    background-color: lightslategray;
+    background-repeat: no-repeat;
+    margin: auto;
+    text-align: center;
+    color: #f1f1f1;
+    border-radius: 15px;
+    opacity: 0.8;
+    font-size: 20px;
+    width: max-content;
+}
+#section1{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: black;
+    text-align: center;
+}
+
+#section1 aside img{
+    width: 350px;
+    height: 350px;
+    border-radius: 600px;
+    opacity: 0.8;
+}
+
+#section2{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: black;
+    text-align: center;
+}
+
+#section2 aside img{
+    width: 350px;
+    height: 350px;
+    border-radius: 600px;
+    opacity: 0.8;
+}
+.titre2{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    text-align: center;
+    opacity: 0.8;
+    width: max-content;
+    margin: auto;
+    border-radius: 15px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+p {
+    color: #555;
+    line-height: 1.5;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+iframe {
+    display: block;
+    margin: 20px auto;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* Fin de style de la page d'acceuil */
+
+/* Le style de la page de Singapour */
+#body2{
+    background-image: url(imagesingapour5.webp);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-size: cover;
+
+}
+#section3{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+#h2{
+    color: white;
+}
+#p{
+    color: white;
+}
+
+#section3 .aside2 h1{
+    text-align: center;
+    font-size: x-large;
+    width: max-content;
+    margin: auto;
+    opacity: 0.8;
+}
+
+#section3 .aside2{
+    text-align: justify;
+    width: 600px;
+    font-size: 1.1em;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    border-radius: 15px;
+    background-color: rgba(3, 1, 17, 0.747);
+}
+
+#section4{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4em;
+    border-radius: 15px;
+    color: white;
+    text-align: justify;
+    background-color: rgba(3, 1, 17, 0.747);
+}
+
+#section4 .gardenbythebay img{
+    display: flex;
+    float: right;
+    width: 300px;
+    height: 290px;
+    border-radius: 800px;
+    margin: auto;
+    opacity: 0.8;
+}
+
+#section5{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4em;
+    border-radius: 15px;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #f1f1f1;
+    text-align: justify;
+    background-color: rgba(3, 1, 17, 0.747);
+}
+
+#section5 .merlionpark img{
+    display: flex;
+    float: left;
+    width: 300px;
+    height: 290px;
+    border-radius: 800px;
+    margin: auto;
+    opacity: 0.8;
+}
+
+#section6{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.6em;
+    border-radius: 15px;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #a5a5a5;
+    text-align: justify;
+    background-color: rgba(3, 1, 17, 0.747);
+}
+
+#section6 .marinabaysands img{
+    display: flex;
+    float: right;
+    width: 300px;
+    height: 260px;
+    border-radius: 800px;
+    margin: auto;
+    opacity: 0.8;
+}
+/* Fin de style de la page de Singapour */
+
+/* Le style de la page de Dubai */
+#body3{
+    background-image: url(dubai2.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-size: cover;
+}
+#section7{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+#h2{
+    color: white;
+}
+#p{
+    color: white;
+}
+
+#section7 .aside2 h1{
+    text-align: center;
+    font-size: x-large;
+    width: max-content;
+    margin: auto;
+    opacity: 0.8;
+}
+
+#section7 .aside2{
+    text-align: justify;
+    width: 600px;
+    font-size: 1.1em;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    border-radius: 15px;
+    background-color: rgba(3, 1, 17, 0.747);
+}
+
+#section8{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4em;
+    border-radius: 15px;
+    color: white;
+    text-align: justify;
+    background-color: rgba(3, 1, 17, 0.747);
+}
+
+#section8 .burjalarab img{
+    display: flex;
+    float: right;
+    width: 300px;
+    height: 290px;
+    border-radius: 800px;
+    margin: auto;
+    opacity: 0.8;
+}
+
+#section9{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4em;
+    border-radius: 15px;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #f1f1f1;
+    text-align: justify;
+    background-color: rgba(3, 1, 17, 0.747);
+}
+
+#section9 .palmjumeirah img{
+    display: flex;
+    float: left;
+    width: 300px;
+    height: 290px;
+    border-radius: 800px;
+    margin: auto;
+    opacity: 0.8;
+}
+
+#section10{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.6em;
+    border-radius: 15px;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #a5a5a5;
+    text-align: justify;
+    background-color: rgba(3, 1, 17, 0.747);
+}
+#section10 .burjkhalifa img{
+    display: flex;
+    float: right;
+    width: 300px;
+    height: 260px;
+    border-radius: 800px;
+    margin: auto;
+    opacity: 0.8;
+}
+/* Fin de style de la page de Dubai */
+
+/* Le style de la page de Paris */
+#body4{
+    background-image: url(paris2.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-size: cover;
+
+}
+#section11{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+#h2{
+    color: white;
+}
+#p{
+    color: white;
+}
+
+#section11 .aside2 h1{
+    text-align: center;
+    font-size: x-large;
+    width: max-content;
+    margin: auto;
+    opacity: 0.8;
+}
+
+#section11 .aside2{
+    text-align: justify;
+    width: 600px;
+    font-size: 1.1em;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    border-radius: 15px;
+    background-color: rgba(3, 1, 17, 0.747);
+}
+
+#section12{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4em;
+    border-radius: 15px;
+    color: white;
+    text-align: justify;
+    background-color: rgba(3, 1, 17, 0.747);
+}
+
+#section12 .toureiffel img{
+    display: flex;
+    float: right;
+    width: 300px;
+    height: 290px;
+    border-radius: 800px;
+    margin: auto;
+    opacity: 0.8;
+}
+
+#section13{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4em;
+    border-radius: 15px;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #f1f1f1;
+    text-align: justify;
+    background-color: rgba(3, 1, 17, 0.747);
+}
+
+#section13 .museedulouvre img{
+    display: flex;
+    float: left;
+    width: 300px;
+    height: 290px;
+    border-radius: 800px;
+    margin: auto;
+    opacity: 0.8;
+}
+
+#section14{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.6em;
+    border-radius: 15px;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #a5a5a5;
+    text-align: justify;
+    background-color: rgba(3, 1, 17, 0.747);
+}
+
+#section14 .chateaudeversailles img{
+    display: flex;
+    float: right;
+    width: 300px;
+    height: 260px;
+    border-radius: 800px;
+    margin: auto;
+    opacity: 0.8;
+}
+/* Fin de style de la page de Paris */
+
+/* Le style de la page de New york */
+#body5{
+    background-image: url(newyork.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-size: cover;
+}
+#section15{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+#h2{
+    color: white;
+}
+#p{
+    color: white;
+}
+
+#section15 .aside2 h1{
+    text-align: center;
+    font-size: x-large;
+    width: max-content;
+    margin: auto;
+    opacity: 0.8;
+}
+
+#section15 .aside2{
+    text-align: justify;
+    width: 600px;
+    font-size: 1.1em;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    border-radius: 15px;
+    background-color: rgba(3, 1, 17, 0.747);
+}
+
+#section16{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4em;
+    border-radius: 15px;
+    color: white;
+    text-align: justify;
+    background-color: rgba(3, 1, 17, 0.747);
+}
+
+#section16 .statuedelaliberte img{
+    display: flex;
+    float: right;
+    width: 300px;
+    height: 290px;
+    border-radius: 800px;
+    margin: auto;
+    opacity: 0.8;
+}
+
+#section17{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4em;
+    border-radius: 15px;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #f1f1f1;
+    text-align: justify;
+    background-color: rgba(3, 1, 17, 0.747);
+}
+
+#section17 .metropolitanmuseumofart img{
+    display: flex;
+    float: left;
+    width: 300px;
+    height: 290px;
+    border-radius: 800px;
+    margin: auto;
+    opacity: 0.8;
+}
+
+#section18{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.6em;
+    border-radius: 15px;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #a5a5a5;
+    text-align: justify;
+    background-color: rgba(3, 1, 17, 0.747);
+}
+#section18 .coneyisland img{
+    display: flex;
+    float: right;
+    width: 300px;
+    height: 260px;
+    border-radius: 800px;
+    margin: auto;
+    opacity: 0.8;
+}
+/* Fin de style de la page de New York */
